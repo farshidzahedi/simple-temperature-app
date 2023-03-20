@@ -1,0 +1,96 @@
+.Weather {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.747);
+  transition: all 0.2s ease-in-out;
+}
+.tehran {
+  background-image: url(../../tehran.jpg);
+}
+.shiraz {
+  background-image: url(../../shiraz.jpg);
+}
+.mashhad {
+  background-image: url(../../mashhad.jpg);
+}
+.tabriz {
+  background-image: url(../../tabriz.jpg);
+}
+.esfahann {
+  background-image: url(../../esfahann.jpg);
+}
+
+.container {
+  width: 40%;
+  height: auto;
+  background-color: #ffffff60;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  border-radius: 18px;
+  border: 1px solid #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.Weather-title {
+  font-weight: bold;
+  color: white;
+  border-bottom: 1px solid #fff;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  width: 200px;
+  padding: 15px 20px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+select:not(:-internal-list-box) {
+  color: red;
+}
+
+option {
+  width: 200px;
+  padding: 15px 20px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.datas {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.city,
+.temp,
+.condition {
+  background-color: #e4e4e4a4;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 18px;
+  font-family: inherit;
+  backdrop-filter: blur(5px);
+  border: 1px solid #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
